@@ -1,4 +1,4 @@
-module github.com/forum/proto
+module github.com/atmega-p471/forum-proto
 
 go 1.20
 
