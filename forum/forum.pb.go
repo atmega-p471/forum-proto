@@ -532,7 +532,7 @@ const file_proto_forum_forum_proto_rawDesc = "" +
 	"\rCreateMessage\x12\x1b.forum.CreateMessageRequest\x1a\x1c.forum.CreateMessageResponse\"\x00\x12C\n" +
 	"\n" +
 	"BanMessage\x12\x18.forum.BanMessageRequest\x1a\x19.forum.BanMessageResponse\"\x00\x12I\n" +
-	"\fUnbanMessage\x12\x1a.forum.UnbanMessageRequest\x1a\x1b.forum.UnbanMessageResponse\"\x00B\x1eZ\x1cgithub.com/forum/proto/forumb\x06proto3"
+	"\fUnbanMessage\x12\x1a.forum.UnbanMessageRequest\x1a\x1b.forum.UnbanMessageResponse\"\x00B\x1eZ\x1cgithub.com/atmega-p471/proto/forumb\x06proto3"
 
 var (
 	file_proto_forum_forum_proto_rawDescOnce sync.Once

@@ -487,7 +487,7 @@ const file_proto_auth_auth_proto_rawDesc = "" +
 	"\rValidateToken\x12\x1a.auth.ValidateTokenRequest\x1a\x1b.auth.ValidateTokenResponse\"\x00\x128\n" +
 	"\aGetUser\x12\x14.auth.GetUserRequest\x1a\x15.auth.GetUserResponse\"\x00\x128\n" +
 	"\aBanUser\x12\x14.auth.BanUserRequest\x1a\x15.auth.BanUserResponse\"\x00\x12>\n" +
-	"\tUnbanUser\x12\x16.auth.UnbanUserRequest\x1a\x17.auth.UnbanUserResponse\"\x00B*Z(github.com/forum/auth-service/proto/authb\x06proto3"
+	"\tUnbanUser\x12\x16.auth.UnbanUserRequest\x1a\x17.auth.UnbanUserResponse\"\x00B*Z(github.com/atmega-p471/auth-service/proto/authb\x06proto3"
 
 var (
 	file_proto_auth_auth_proto_rawDescOnce sync.Once
