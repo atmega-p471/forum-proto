@@ -1,0 +1,65 @@
+syntax = "proto3";
+
+package auth;
+
+option go_package = "github.com/forum/auth-service/proto/auth";
+
+// Auth Service definition
+service AuthService {
+  // Validate JWT token
+  rpc ValidateToken(ValidateTokenRequest) returns (ValidateTokenResponse) {}
+  
+  // Get user by ID
+  rpc GetUser(GetUserRequest) returns (GetUserResponse) {}
+  
+  // Ban user
+  rpc BanUser(BanUserRequest) returns (BanUserResponse) {}
+  
+  // Unban user
+  rpc UnbanUser(UnbanUserRequest) returns (UnbanUserResponse) {}
+}
+
+// User message
+message User {
+  int64 id = 1;
+  string username = 2;
+  string email = 3;
+  string role = 4;
+  bool is_banned = 5;
+}
+
+// ValidateToken request and response
+message ValidateTokenRequest {
+  string token = 1;
+}
+
+message ValidateTokenResponse {
+  User user = 1;
+}
+
+// GetUser request and response
+message GetUserRequest {
+  int64 id = 1;
+}
+
+message GetUserResponse {
+  User user = 1;
+}
+
+// BanUser request and response
+message BanUserRequest {
+  int64 id = 1;
+}
+
+message BanUserResponse {
+  bool success = 1;
+}
+
+// UnbanUser request and response
+message UnbanUserRequest {
+  int64 id = 1;
+}
+
+message UnbanUserResponse {
+  bool success = 1;
+} 
