@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package auth;
 
-option go_package = "github.com/forum/auth-service/proto/auth";
+option go_package = "github.com/atmega-p471/forum-proto/auth";
 
 // Auth Service definition
 service AuthService {

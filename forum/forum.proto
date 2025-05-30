@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package forum;
 
-option go_package = "github.com/forum/proto/forum";
+option go_package = "github.com/atmega-p471/forum-proto/forum";
 
 // Forum Service definition
 service ForumService {
